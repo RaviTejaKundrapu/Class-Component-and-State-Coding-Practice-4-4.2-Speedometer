@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SpeedometerHeading {
+  font-family: 'Roboto';
+  font-size: 33px;
+  font-weight: 800;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.SpeedometerImage {
+  height: 130px;
+  width: 290px;
+}
+
+.SpeedCount {
+  font-family: 'Roboto';
+  font-size: 29px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.LimitDescription {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #cbd5e1;
+}
+
+.ButtonContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Btn-Accelerate {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  border: 1px solid #0b69ff;
+  border-radius: 9px;
+  padding: 12px;
+  margin-right: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.Btn-Break {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #94a3b8;
+  border: 1px solid #94a3b8;
+  border-radius: 9px;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+@media all and (min-width: 767px) {
+  .SpeedometerHeading {
+    font-size: 53px;
+  }
+
+  .SpeedometerImage {
+    height: 230px;
+    width: 500px;
+  }
+
+  .SpeedCount {
+    font-size: 46px;
+  }
+
+  .LimitDescription {
+    font-size: 23px;
+  }
+
+  .ButtonContainer {
+    width: 40%;
+  }
+
+  .Btn-Accelerate {
+    font-size: 19px;
+  }
+
+  .Btn-Break {
+    font-size: 19px;
+  }
+}
